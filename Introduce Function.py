@@ -26,3 +26,12 @@ def currancy_calculate (usd, bd):
     return bd_rate
 Today_rate = currancy_calculate(500, 99)
 print(Today_rate)
+
+#Practice 4
+def all_mobile_price(usd_price,exchange_rate):
+    bd_price = usd_price * exchange_rate
+    return bd_price
+
+Huawei_Price = all_mobile_price (230, 100)
+
+print(Huawei_Price)
